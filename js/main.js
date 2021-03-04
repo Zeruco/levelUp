@@ -62,6 +62,8 @@ number.onkeypress =
 function isNumber(key) {
     let maxLength = false;
     switch (number.value.length){
+        case 0:
+            number.value += '+';
         case 1:
             number.value += '-';
             break;
