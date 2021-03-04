@@ -65,19 +65,19 @@ function isNumber(key) {
         case 0:
             number.value += '+';
             break;
-        case 1:
+        case 2:
             number.value += '-';
             break;
-        case 5:
+        case 6:
             number.value += '-';
             break;
-        case 9:
+        case 10:
             number.value += '-';
             break;
-        case 12:
+        case 13:
             number.value += '-';
             break;
-        case 15:
+        case 16:
             maxLength = true;
             break;
     }
