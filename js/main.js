@@ -64,6 +64,7 @@ function isNumber(key) {
     switch (number.value.length){
         case 0:
             number.value += '+';
+            break;
         case 1:
             number.value += '-';
             break;
